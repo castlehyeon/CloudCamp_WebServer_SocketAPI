@@ -10,7 +10,7 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
 public class MyHandler implements HttpHandler {
-	private String root = "C:\\Users\\qnftk\\Desktop\\java22\\2022school\\Like-lion\\portfolio_html";
+	private String root = "C:\\Users\\qnftk\\git\\CloudCamp_WebServer_SocketAPI\\Cloud_Web_Server";
 	
 	@Override
 	public void handle(HttpExchange exchange) {
